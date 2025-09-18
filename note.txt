@@ -1,0 +1,5 @@
+python -m venv backendenv
+source backendenv/bin/activate
+pip install django
+django-admin startproject voteee
+python manage.py startapp poll
